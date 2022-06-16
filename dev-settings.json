@@ -1,0 +1,22 @@
+{
+    "private": {
+
+    },
+    "public": {
+
+    },
+    "packages": {
+        "service-configuration": {
+            "kamaz": {
+                "loginStyle": "redirect",
+                "clientId": "4eb6287d-f9fc-4f4d-9cf7-36f360aa869d",
+                "secret": "top_secret",
+                "issuer": "https://tms-oauth.dev.dpkapp.ru",
+                "redirectUrl1": "https://tms.dev.dpkapp.ru/tms/schedule",
+                "redirectUri": "/_oauth/kamaz",
+                "redirectUrl": "/_oauth/kamaz",
+                "ttl": 3600
+            }
+        }
+    }
+}
